@@ -10,3 +10,8 @@ git push -u origin master
 git pull
 
 git push -u origin master -f
+
+--
+git checkout -b v1.0 origin/master
+#新分支推向远程
+git push origin HEAD -u
